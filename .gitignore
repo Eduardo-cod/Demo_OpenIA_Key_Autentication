@@ -1,0 +1,50 @@
+# Environments and secrets
+.env
+.env.*
+*.pem
+*.key
+*.crt
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+ENV/
+env/
+.python-version
+
+# Build and package artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+*.whl
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and generated files
+*.log
+logs/
+output/
+results/
+
+# UV local cache
+.uv/
+.uv-cache/
